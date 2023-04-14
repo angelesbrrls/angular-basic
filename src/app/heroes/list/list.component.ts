@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-listado',
-  templateUrl: './listado.component.html',
-  styleUrls: ['./listado.component.css']
+  selector: 'app-list',
+  templateUrl: './list.component.html',
+  styleUrls: ['./list.component.css']
 })
-export class ListadoComponent {
+export class ListComponent {
 
   heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor', 'Capitán América'] ;
   heroeDeleted: string = '';

@@ -1,10 +1,10 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: 'app-heroe',
-    templateUrl: 'heroe.componente.html',
+    selector: 'app-hero',
+    templateUrl: 'hero.componente.html',
 })
-export class HeroeComponent{
+export class HeroComponent{
     name: string = 'Ironman';
     age: number = 45;
 

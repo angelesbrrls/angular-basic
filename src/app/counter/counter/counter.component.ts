@@ -8,15 +8,15 @@ import { Component } from '@angular/core';
     <button (click)=" operacion (base) "> + {{ base }} </button>
     <span> {{ num }} </span>
     <button (click)=" operacion (-base)  "> - {{ base }} </button>
-    `  
+    `
 })
 
 
-export class ContadorComponent {
-    title : string = 'Contador App';
+export class CounterComponent {
+    title : string = 'Counter App';
     num   : number = 10;
     base  : number = 5;
-    
+
     operacion (valor: number){
       this.num += valor;
     }
