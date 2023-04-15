@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { MainPageComponent } from './main-page/main-page.component';
-import { PersonagesComponent } from './personages/personages.component';
-import { AgregarComponent } from './agregar/agregar.component';
+import { MainPageComponent } from './pages/main-page/main-page.component';
+import { CharactersComponent } from './components/characters/characters.component';
+import { AddCharacterComponent } from './components/add-character/add-character.component';
 
 
 
@@ -12,8 +12,8 @@ import { AgregarComponent } from './agregar/agregar.component';
 @NgModule({
   declarations: [
     MainPageComponent,
-    PersonagesComponent,
-    AgregarComponent
+    CharactersComponent,
+    AddCharacterComponent
   ],
   imports: [
     CommonModule,
